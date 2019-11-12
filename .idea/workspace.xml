@@ -4,6 +4,7 @@
     <list default="true" id="4ff170c2-39ec-441d-8446-2ef90f046116" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573533089186</updated>
       <workItem from="1573533092194" duration="1566000" />
+      <workItem from="1573534783412" duration="1504000" />
     </task>
     <servers />
   </component>
@@ -73,7 +75,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
