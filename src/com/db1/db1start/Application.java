@@ -36,4 +36,25 @@ public class Application {
         return valor;
     }
 
+    public String maiuscula(String textoMai){
+        return textoMai.toUpperCase();
+    }
+    public String minuscula(String textoMin){
+        return textoMin.toLowerCase();
+    }
+    public Integer contagem(String contLetras){
+        return contLetras.length();
+    }
+    public Integer espaco(String texto){
+        String textoSemEspaco = texto.replace(" ", "");
+        Integer qtddLetras = textoSemEspaco.length();
+        return qtddLetras;
+    }
+    public String nomeQuatroLetras(String nome){
+        return nome.substring(0,4);
+    }
+    public String nomeTerceiraLetra(String nome){
+        return nome.substring(3,6);
+    }
+
 }

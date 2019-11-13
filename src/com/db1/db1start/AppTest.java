@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class AppTest {
 
+    //Exercícios de Inteiro (Integer)
     @Test
     public void testeSomar(){
         Application application = new Application();
@@ -55,6 +56,40 @@ public class AppTest {
         Integer response = application.impares(10);
         Assert.assertEquals(expected,response);
     }
-
-
+    //Exercícios de Texto (String)
+    @Test
+    public void testeMaiuscula(){
+        Application application = new Application();
+        String expected = "FELIPE";
+        String response = application.maiuscula("felipe");
+        Assert.assertEquals(expected,response);
+    }
+    @Test
+    public void testeMinuscula(){
+        Application application = new Application();
+        String expected = "felipe";
+        String response = application.minuscula("FELIPE");
+        Assert.assertEquals(expected,response);
+    }
+    @Test
+    public void testeContagem(){
+        Application application = new Application();
+        Integer expected = 8;
+        Integer response = application.contagem("DB1START");
+        Assert.assertEquals(expected,response);
+    }
+    @Test
+    public void testeEspacos(){
+        Application application = new Application();
+        Integer expected = 8;
+        Integer response = application.espaco(" DB1START ");
+        Assert.assertEquals(expected,response);
+    }
+    @Test
+    public void testeNome(){
+        Application application = new Application();
+        String expected = "ipe";
+        String response = application.nomeTerceiraLetra("Felipe");
+        Assert.assertEquals(expected,response);
+    }
 }

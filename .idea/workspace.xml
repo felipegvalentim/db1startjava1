@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f0b8244-de68-4585-b502-95e2cd8955a0" name="Default Changelist" comment="" />
+    <list default="true" id="9f0b8244-de68-4585-b502-95e2cd8955a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="261">
+              <caret line="92" column="47" lean-forward="true" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,17 +41,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="312">
+              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding>
                 <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1388#1389#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Codigos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+            <state relative-caret-position="159">
+              <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +142,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573588175530" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573666365650" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hamcrest-all-1.3.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -153,8 +160,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testeImpares">
-    <configuration name="AppTest.testeDividir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.testeNome">
+    <configuration name="AppTest.testeContagem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1startjava1" />
       <extension name="coverage">
         <pattern>
@@ -164,13 +171,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTest" />
-      <option name="METHOD_NAME" value="testeDividir" />
+      <option name="METHOD_NAME" value="testeContagem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testeImpares" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testeEspacos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1startjava1" />
       <extension name="coverage">
         <pattern>
@@ -180,13 +187,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTest" />
-      <option name="METHOD_NAME" value="testeImpares" />
+      <option name="METHOD_NAME" value="testeEspacos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testeMaior" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testeMaiuscula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1startjava1" />
       <extension name="coverage">
         <pattern>
@@ -196,13 +203,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTest" />
-      <option name="METHOD_NAME" value="testeMaior" />
+      <option name="METHOD_NAME" value="testeMaiuscula" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testeMultiplicar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testeMinuscula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1startjava1" />
       <extension name="coverage">
         <pattern>
@@ -212,13 +219,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTest" />
-      <option name="METHOD_NAME" value="testeMultiplicar" />
+      <option name="METHOD_NAME" value="testeMinuscula" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testeNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1startjava1" />
       <extension name="coverage">
         <pattern>
@@ -228,7 +235,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.db1.db1start" />
       <option name="MAIN_CLASS_NAME" value="com.db1.db1start.AppTest" />
-      <option name="METHOD_NAME" value="testeNumber" />
+      <option name="METHOD_NAME" value="testeNome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testeImpares" />
-        <item itemvalue="JUnit.AppTest.testeMaior" />
-        <item itemvalue="JUnit.AppTest.testeNumber" />
-        <item itemvalue="JUnit.AppTest.testeDividir" />
-        <item itemvalue="JUnit.AppTest.testeMultiplicar" />
+        <item itemvalue="JUnit.AppTest.testeNome" />
+        <item itemvalue="JUnit.AppTest.testeEspacos" />
+        <item itemvalue="JUnit.AppTest.testeContagem" />
+        <item itemvalue="JUnit.AppTest.testeMinuscula" />
+        <item itemvalue="JUnit.AppTest.testeMaiuscula" />
       </list>
     </recent_temporary>
   </component>
@@ -258,41 +265,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testeMaior - 2019.11.12 at 17h 33m 33s.xml">
-      <configuration name="AppTest.testeMaior" configurationId="JUnit" />
+    <history-entry file="AppTest_testeContagem - 2019.11.13 at 15h 07m 39s.xml">
+      <configuration name="AppTest.testeContagem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeMaior - 2019.11.12 at 17h 33m 41s.xml">
-      <configuration name="AppTest.testeMaior" configurationId="JUnit" />
+    <history-entry file="AppTest_testeContagem - 2019.11.13 at 15h 08m 04s.xml">
+      <configuration name="AppTest.testeContagem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeMaior - 2019.11.12 at 17h 33m 46s.xml">
-      <configuration name="AppTest.testeMaior" configurationId="JUnit" />
+    <history-entry file="AppTest_testeEspacos - 2019.11.13 at 15h 10m 15s.xml">
+      <configuration name="AppTest.testeEspacos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeImpares - 2019.11.12 at 17h 42m 19s.xml">
-      <configuration name="AppTest.testeImpares" configurationId="JUnit" />
+    <history-entry file="AppTest_testeEspacos - 2019.11.13 at 15h 14m 34s.xml">
+      <configuration name="AppTest.testeEspacos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeImpares - 2019.11.12 at 17h 43m 02s.xml">
-      <configuration name="AppTest.testeImpares" configurationId="JUnit" />
+    <history-entry file="AppTest_testeEspacos - 2019.11.13 at 15h 14m 46s.xml">
+      <configuration name="AppTest.testeEspacos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeImpares - 2019.11.12 at 17h 43m 48s.xml">
-      <configuration name="AppTest.testeImpares" configurationId="JUnit" />
+    <history-entry file="AppTest_testeEspacos - 2019.11.13 at 15h 16m 30s.xml">
+      <configuration name="AppTest.testeEspacos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeImpares - 2019.11.12 at 17h 45m 53s.xml">
-      <configuration name="AppTest.testeImpares" configurationId="JUnit" />
+    <history-entry file="AppTest_testeEspacos - 2019.11.13 at 15h 16m 54s.xml">
+      <configuration name="AppTest.testeEspacos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeImpares - 2019.11.12 at 17h 46m 10s.xml">
-      <configuration name="AppTest.testeImpares" configurationId="JUnit" />
+    <history-entry file="AppTest_testeEspacos - 2019.11.13 at 15h 20m 46s.xml">
+      <configuration name="AppTest.testeEspacos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeImpares - 2019.11.12 at 17h 46m 48s.xml">
-      <configuration name="AppTest.testeImpares" configurationId="JUnit" />
+    <history-entry file="AppTest_testeNome - 2019.11.13 at 15h 30m 46s.xml">
+      <configuration name="AppTest.testeNome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testeImpares - 2019.11.12 at 17h 49m 07s.xml">
-      <configuration name="AppTest.testeImpares" configurationId="JUnit" />
+    <history-entry file="AppTest_testeNome - 2019.11.13 at 15h 31m 56s.xml">
+      <configuration name="AppTest.testeNome" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,7 +309,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,16 +329,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Codigos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -341,10 +339,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Codigos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="261">
+          <caret line="92" column="47" lean-forward="true" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -353,17 +361,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="312">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
           </folding>
         </state>
       </provider>
