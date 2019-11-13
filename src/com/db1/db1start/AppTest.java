@@ -113,13 +113,15 @@ public class AppTest {
         String response = application.nomeAlterar("Felipe Valentim");
         Assert.assertEquals(expected,response);
     }
-//    @Test
-//    public void testeSepararTexto(){
-//        Application application = new Application();
-//        String expected = "banana maca melancia";
-//        String response = application.separarTexto("banana.maca.melancia");
-//        Assert.assertEquals(expected,response);
-//    }
+    @Test
+    public void testeSepararTexto(){
+        Application application = new Application();
+        String[] esperado = new String[]{"banana","maca","melancia"};
+        String[] resultado =
+                application.separarTexto("banana, maca, melancia");
+        Assert.assertArrayEquals(esperado, resultado);
+
+    }
     @Test
     public void testeInverterTexto(){
         Application application = new Application();
@@ -127,4 +129,6 @@ public class AppTest {
         Integer response = application.qtddVogais("Rogerio");
         Assert.assertEquals(expected,response);
     }
+
+
 }

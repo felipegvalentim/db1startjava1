@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="112" column="57" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
+            <state relative-caret-position="210">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+            <state relative-caret-position="227">
+              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
               <folding>
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#131#132#0" expanded="true" />
@@ -58,6 +58,8 @@
                 <element signature="e#1521#1522#0" expanded="true" />
                 <element signature="e#1571#1572#0" expanded="true" />
                 <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1885#1886#0" expanded="true" />
                 <element signature="e#2322#2323#0" expanded="true" />
                 <element signature="e#2345#2346#0" expanded="true" />
               </folding>
@@ -94,8 +96,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/db1/db1start/App.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/Codigos.java" />
-        <option value="$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" />
         <option value="$PROJECT_DIR$/src/com/db1/db1start/Application.java" />
+        <option value="$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" />
       </list>
     </option>
   </component>
@@ -146,7 +148,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573671747022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573673132345" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hamcrest-all-1.3.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -164,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testeAlterarNome">
+  <component name="RunManager" selected="JUnit.AppTest.testeSepararTexto">
     <configuration name="AppTest.SepararTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="db1startjava1" />
       <extension name="coverage">
@@ -247,8 +249,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testeAlterarNome" />
         <item itemvalue="JUnit.AppTest.testeSepararTexto" />
+        <item itemvalue="JUnit.AppTest.testeAlterarNome" />
         <item itemvalue="JUnit.AppTest.SepararTexto" />
         <item itemvalue="JUnit.AppTest.testeQtddVogais" />
         <item itemvalue="JUnit.AppTest.testeQuartaLetra" />
@@ -269,9 +271,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_SepararTexto - 2019.11.13 at 16h 49m 58s.xml">
-      <configuration name="AppTest.SepararTexto" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_SepararTexto - 2019.11.13 at 16h 50m 18s.xml">
       <configuration name="AppTest.SepararTexto" configurationId="JUnit" />
     </history-entry>
@@ -298,6 +297,9 @@
     </history-entry>
     <history-entry file="AppTest_testeAlterarNome - 2019.11.13 at 17h 01m 29s.xml">
       <configuration name="AppTest.testeAlterarNome" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testeSepararTexto - 2019.11.13 at 17h 25m 11s.xml">
+      <configuration name="AppTest.testeSepararTexto" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -355,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="112" column="57" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
+        <state relative-caret-position="210">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -365,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        <state relative-caret-position="227">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#131#132#0" expanded="true" />
@@ -382,6 +384,8 @@
             <element signature="e#1521#1522#0" expanded="true" />
             <element signature="e#1571#1572#0" expanded="true" />
             <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
             <element signature="e#2322#2323#0" expanded="true" />
             <element signature="e#2345#2346#0" expanded="true" />
           </folding>

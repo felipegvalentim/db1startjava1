@@ -66,10 +66,9 @@ public class Application {
         return "Aluno" + nome.substring(PrimeiroEspaco);
     }
 
-//    public String separarTexto(String texto){
-//        String[] textoSeparado = texto.split(",");
-//        return Arrays.toString(textoSeparado);
-//    }
+    public String[] separarTexto(String valor){
+        return valor.split(", ");
+    }
 
     public Integer qtddVogais(String texto){
         Integer contarVogais = 0;
