@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f0b8244-de68-4585-b502-95e2cd8955a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/db1/db1start/Application.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f0b8244-de68-4585-b502-95e2cd8955a0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="126" column="40" lean-forward="true" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+            <state relative-caret-position="278">
+              <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +143,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573674310334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573674376516" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hamcrest-all-1.3.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -269,9 +266,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testeSepararTexto - 2019.11.13 at 16h 50m 30s.xml">
-      <configuration name="AppTest.testeSepararTexto" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_testeAlterarNome - 2019.11.13 at 16h 59m 46s.xml">
       <configuration name="AppTest.testeAlterarNome" configurationId="JUnit" />
     </history-entry>
@@ -298,6 +292,9 @@
     </history-entry>
     <history-entry file="AppTest_testeQtdd - 2019.11.13 at 17h 39m 22s.xml">
       <configuration name="AppTest.testeQtdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testeQtddVogaisTexto - 2019.11.13 at 17h 45m 12s.xml">
+      <configuration name="AppTest.testeQtddVogaisTexto" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -380,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/db1/db1start/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="126" column="40" lean-forward="true" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+        <state relative-caret-position="278">
+          <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
