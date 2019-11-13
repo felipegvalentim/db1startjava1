@@ -1,5 +1,7 @@
 package com.db1.db1start;
 
+import java.util.Arrays;
+
 public class Application {
     public Integer somar(Integer n1,Integer n2){
         return n1 + n2;
@@ -56,5 +58,29 @@ public class Application {
     public String nomeTerceiraLetra(String nome){
         return nome.substring(3,6);
     }
+    public String nomeQuartaLetra(String nome){
+        return nome.substring(2,6);
+    }
+    public String nomeAlterar(String nome){
+        Integer PrimeiroEspaco = nome.indexOf(" ");
+        return "Aluno" + nome.substring(PrimeiroEspaco);
+    }
 
+//    public String separarTexto(String texto){
+//        String[] textoSeparado = texto.split(",");
+//        return Arrays.toString(textoSeparado);
+//    }
+
+    public Integer qtddVogais(String texto){
+        Integer contarVogais = 0;
+        for (int i = 0; i < texto.length(); i++){
+            char c = texto.charAt(i);
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+                contarVogais++;
+        }
+        return contarVogais;
+    }
+    public Integer inverterTexto(String texto){
+        return 0;
+    }
 }

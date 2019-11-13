@@ -86,10 +86,45 @@ public class AppTest {
         Assert.assertEquals(expected,response);
     }
     @Test
-    public void testeNome(){
+    public void testeQuatroLetras(){
+        Application application = new Application();
+        String expected = "Feli";
+        String response = application.nomeQuatroLetras("Felipe");
+        Assert.assertEquals(expected,response);
+    }
+    @Test
+    public void testeTerceiraLetra(){
         Application application = new Application();
         String expected = "ipe";
         String response = application.nomeTerceiraLetra("Felipe");
+        Assert.assertEquals(expected,response);
+    }
+    @Test
+    public void testeQuartaLetra(){
+        Application application = new Application();
+        String expected = "lipe";
+        String response = application.nomeQuartaLetra("Felipe");
+        Assert.assertEquals(expected,response);
+    }
+    @Test
+    public void testeAlterarNome(){
+        Application application = new Application();
+        String expected = "Aluno Valentim";
+        String response = application.nomeAlterar("Felipe Valentim");
+        Assert.assertEquals(expected,response);
+    }
+//    @Test
+//    public void testeSepararTexto(){
+//        Application application = new Application();
+//        String expected = "banana maca melancia";
+//        String response = application.separarTexto("banana.maca.melancia");
+//        Assert.assertEquals(expected,response);
+//    }
+    @Test
+    public void testeInverterTexto(){
+        Application application = new Application();
+        Integer expected = 4;
+        Integer response = application.qtddVogais("Rogerio");
         Assert.assertEquals(expected,response);
     }
 }
