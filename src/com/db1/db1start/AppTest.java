@@ -123,7 +123,7 @@ public class AppTest {
     }
 
     @Test
-    public void testeInverterTexto(){
+    public void testeQtddVogaisTexto(){
         Application application = new Application();
         Integer expected = 4;
         Integer response = application.qtddVogais("Rogerio");

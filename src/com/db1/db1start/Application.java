@@ -46,9 +46,9 @@ public class Application {
     }
     public Integer qtddLetras(){
         String palavra = "Db1Start";
-        return removeNuemero(palavra).length();
+        return removeNumero(palavra).length();
     }
-    private String removeNuemero (String palavra){
+    private String removeNumero (String palavra){
         return palavra
                 .replaceAll("[0-9]","");
     }
