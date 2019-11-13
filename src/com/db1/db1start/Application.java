@@ -44,9 +44,15 @@ public class Application {
     public String minuscula(String textoMin){
         return textoMin.toLowerCase();
     }
-    public Integer contagem(String contLetras){
-        return contLetras.length();
+    public Integer qtddLetras(){
+        String palavra = "Db1Start";
+        return removeNuemero(palavra).length();
     }
+    private String removeNuemero (String palavra){
+        return palavra
+                .replaceAll("[0-9]","");
+    }
+
     public Integer espaco(String texto){
         String textoSemEspaco = texto.replace(" ", "");
         Integer qtddLetras = textoSemEspaco.length();

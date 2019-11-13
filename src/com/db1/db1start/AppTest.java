@@ -72,11 +72,10 @@ public class AppTest {
         Assert.assertEquals(expected,response);
     }
     @Test
-    public void testeContagem(){
+    public void testeQtdd(){
         Application application = new Application();
-        Integer expected = 8;
-        Integer response = application.contagem("DB1START");
-        Assert.assertEquals(expected,response);
+        int quantidade = application.qtddLetras();
+        Assert.assertEquals(7, quantidade);
     }
     @Test
     public void testeEspacos(){
@@ -116,12 +115,13 @@ public class AppTest {
     @Test
     public void testeSepararTexto(){
         Application application = new Application();
-        String[] esperado = new String[]{"banana","maca","melancia"};
+        String[] esperado =
+                new String[]{"banana","maca","melancia"};
         String[] resultado =
                 application.separarTexto("banana, maca, melancia");
         Assert.assertArrayEquals(esperado, resultado);
-
     }
+
     @Test
     public void testeInverterTexto(){
         Application application = new Application();
